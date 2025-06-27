@@ -16,8 +16,7 @@ const CoursesPage = () =>{
           <h2>Discover Campus Life</h2><hr/>
           <div className="vid-cou">
           <video controls>
-            <source  src="./videos/college-tour.mp4"
-></source>
+            <source src="/videos/college-tour.mp4" type="video/mp4"/>
           </video>
           
           
