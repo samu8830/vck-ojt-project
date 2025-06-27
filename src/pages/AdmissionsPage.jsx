@@ -5,7 +5,7 @@ import "../styles/Pages.css";
 const Admissions =()=>{
     return(
         <div>
-            <Header/>
+           
             <div className="back">
              <main className="container">
         <section className="card2">

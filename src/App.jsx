@@ -8,10 +8,27 @@ import AdmissionsPage from './pages/AdmissionsPage';
 import Header from './components/Header/Header';
 import ChatbotComponent from './components/Chatbot/ChatbotComponent';
 import "./styles/pages.css";
+import { useState } from 'react';
+import DeveloperInfoPopup from './components/DeveloperInfo/DeveloperInfoPopup';
 
 const App=()=>{
-
+const [showPopup, setShowPopup] = useState(true);
+  
+const handleClosePopup = () => {
+    setShowPopup(false);
+  };
   return(
+    <>
+    <div>
+        {/* Your main application content */}
+        <DeveloperInfoPopup
+          show={showPopup}
+          onClose={handleClosePopup}
+          studentName="Samruddhi Madhukar Sarode"
+          studentPhotoUrl="/images/photo.jpg" // Path to their photo
+          uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
+        />
+      </div>
   <div className='app-wrapper'>
     
     <BrowserRouter>
@@ -27,6 +44,7 @@ const App=()=>{
       <ChatbotComponent/>
     </BrowserRouter>
   </div>
+  </>
   );
 }
 export default App;

@@ -4,7 +4,7 @@ import Header from "../components/Header/Header";
 const AboutPage = () =>{
     return(
         <div>
-            <Header/>
+            
          <div className="back">   
       <main className="container">
         <section className="card2">

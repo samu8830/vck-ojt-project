@@ -21,7 +21,7 @@ body {
 
 .card2 {
   background-color: white;
-  padding: 25px;
+  padding: 30px;
   border-radius: 12px;
   width: 70%;
   max-height: 500px;
@@ -76,27 +76,28 @@ section.txt1 {
   
 }
 .txt1 h1{
-  margin-top: -90px;
-  margin-left: -13rem;
+  margin-top: -50px;
+  margin-left: -20rem;
  
 }
 .txt1 h5{
   color: white;
   font-weight: 20;
-  margin-left: -2.5rem;
-  margin-top: 1.5rem;
+  margin-left: -4.%;
+  margin-top: -4.%;
 }
 .txt1 button{
   margin-top:-15px;
-  height:8px;
-  width: 25px;
+  height: 300px;
+  width: 700px;
   
 }
-
-.hm img {
-  height:400px;
-  width: 790px;
+.img {
+  height:600px;
+  width: 800px;
    filter: blur(2px);
+   transition: filter 0.3s ease;
+
 }
 
 .but-hero{
@@ -107,16 +108,15 @@ section.txt1 {
   margin-left: -16px;
   text-decoration: none;
   background-color: #218838;
-  color: green;
+  color: white;
 }
 .centered {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
  
-  
   color: white;
-  font-weight:300px;
+  font-weight:  4px;
 }
 
 /* table */

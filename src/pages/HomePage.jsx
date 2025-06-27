@@ -10,7 +10,7 @@ const HomePage = () => {
         <main className="container">
           <section className="card2">
             <section className="txt1">
-              <img className="hm" src="images/college-banner.png"></img>
+              <img className="img" src="images/college-banner.png"></img>
               <h1 className="centered">
                 Welcome to Vivekanand<br/>
                 College!<br/>
@@ -22,7 +22,6 @@ const HomePage = () => {
               
             </section>
             
-          
 
             <p>
               <strong>Vivekanand College</strong> is a premier educational

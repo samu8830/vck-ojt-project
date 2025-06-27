@@ -4,7 +4,7 @@ import '../styles/Pages.css';
 const  ContactPage = () =>{
     return(
         <div>
-            <Header/>
+            
             <div className="back">
             <main className="container">
         <section className="card2">
