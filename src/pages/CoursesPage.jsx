@@ -15,10 +15,19 @@ const CoursesPage = () =>{
           </p>
           <h2>Discover Campus Life</h2><hr/>
           <div className="vid-cou">
-          <video  controls src="./Videos/college-tour.mp4" ></video>
+          <video controls>
+            <source  src="./videos/college-tour.mp4"
+></source>
+          </video>
+          
+          
+          
+          
+          
+          
+          
           
        </div>
-          <h2>Undergraduate Programs (UG)</h2>
           <hr />
           <ul>
             <li><strong>**Bachelor of Science (B.Sc.)**</strong>
