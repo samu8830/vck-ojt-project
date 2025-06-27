@@ -7,7 +7,7 @@ import ContactPage from './pages/ContactPage';
 import AdmissionsPage from './pages/AdmissionsPage';
 import Header from './components/Header/Header';
 import ChatbotComponent from './components/Chatbot/ChatbotComponent';
-import "./styles/pages.css";
+import "./styles/Pages.css";
 import { useState } from 'react';
 import DeveloperInfoPopup from './components/DeveloperInfo/DeveloperInfoPopup';
 
